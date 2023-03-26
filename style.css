@@ -47,6 +47,9 @@
     align-items: center;
    margin: 20px 0;
    border-radius: 4px;
+   max-height: 65px;
+   transition: max-height 0.5s;
+   overflow:hidden
 }
 .input-field i{
     font-size: 18px;
@@ -83,6 +86,7 @@ form p a{
     border: 0;
     cursor: pointer;
     height: 40px;
+    transition: background 0.7s;
 }
 .input-group{
     height: 280px;
